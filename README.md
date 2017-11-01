@@ -1,2 +1,2 @@
 # CGPA-Calculator
-A CGPI/SGPI calculator for First Year Engineering students of Mumbai University
+A CGPI/SGPI calculator for Second Year(SEM-III) Electronics Engineering students of Mumbai University
