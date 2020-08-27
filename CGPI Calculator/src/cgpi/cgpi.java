@@ -4,6 +4,8 @@
  */
 package cgpi;
 
+import java.awt.event.ActionEvent;
+
 /**
  * @author student
  */
@@ -1217,7 +1219,7 @@ public class cgpi extends javax.swing.JFrame
     }
   }    //GEN-LAST:event_jButton6ActionPerformed
 
-  private void jButton5ActionPerformed(java.awt.event.ActionEvent evt)
+  private void jButton5ActionPerformed(ActionEvent evt)
   {    //GEN-FIRST:event_jButton5ActionPerformed
     int flag = 0;
     int flag1 = 0;
