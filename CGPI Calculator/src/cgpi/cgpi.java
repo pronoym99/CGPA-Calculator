@@ -1243,12 +1243,12 @@ public class cgpi extends javax.swing.JFrame
       if (calculate()[0] <= 4)
       {
         obj.jLabel2.setText("Unsuccessful");
-        obj.display_msg.setText((Double.toString(calculate()[0])));
+        obj.display_msg.setText((String.format("%.2f",calculate()[0])));
       }
       else
       {
         obj.jLabel2.setText("successful");
-        obj.display_msg.setText((Double.toString(calculate()[0])));
+        obj.display_msg.setText((String.format("%.2f",calculate()[0])));
       }
       //(Double.toString(calculate()[0]));
       // TODO add your handling code here:
