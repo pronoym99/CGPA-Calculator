@@ -790,7 +790,7 @@ public class cgpi extends javax.swing.JFrame
     {
       int Enas_int = enas_int.getText().length() == 0 ? 0 : Integer.parseInt(enas_int.getText());
       //jLabel45.setText(Integer.toString(Enas_int));
-      if (Enas_int > 20)
+      if (Enas_int > 20 || Enas_int < 0)
       {
         sErr = sErr + " " + "internals";
         flag1 = 1;
@@ -800,7 +800,7 @@ public class cgpi extends javax.swing.JFrame
         flag1 = 0;
       }
       int Enas_term = enas_term.getText().length() == 0 ? 0 : Integer.parseInt(enas_term.getText());
-      if (Enas_term > 25)
+      if (Enas_term > 25 || Enas_term < 0)
       {
         sErr = sErr + " " + "termwork";
         flag2 = 1;
@@ -810,7 +810,7 @@ public class cgpi extends javax.swing.JFrame
         flag2 = 0;
       }
       int Enas_sem = enas_sem.getText().length() == 0 ? 0 : Integer.parseInt(enas_sem.getText());
-      if (Enas_sem > 80)
+      if (Enas_sem > 80 || Enas_sem < 0)
       {
         sErr = sErr + " " + "semester";
         flag3 = 1;
@@ -868,7 +868,7 @@ public class cgpi extends javax.swing.JFrame
     try
     {
       int Edc_int = edc_int.getText().length() == 0 ? 0 : Integer.parseInt(edc_int.getText());
-      if (Edc_int > 20)
+      if (Edc_int > 20 || Edc_int < 0)
       {
         sErr = sErr + " " + "internals";
         flag1 = 1;
@@ -878,7 +878,7 @@ public class cgpi extends javax.swing.JFrame
         flag1 = 0;
       }
       int Edc_term = edc_term.getText().length() == 0 ? 0 : Integer.parseInt(edc_term.getText());
-      if (Edc_term > 25)
+      if (Edc_term > 25 || Edc_term < 0)
       {
         sErr = sErr + " " + "termwork";
         flag2 = 1;
@@ -888,7 +888,7 @@ public class cgpi extends javax.swing.JFrame
         flag2 = 0;
       }
       int Edc_pracs = edc_pracs.getText().length() == 0 ? 0 : Integer.parseInt(edc_pracs.getText());
-      if (Edc_pracs > 25)
+      if (Edc_pracs > 25 || Edc_pracs < 0)
       {
         sErr = sErr + " " + "practical";
         flag3 = 1;
@@ -898,7 +898,7 @@ public class cgpi extends javax.swing.JFrame
         flag3 = 0;
       }
       int Edc_sem = edc_sem.getText().length() == 0 ? 0 : Integer.parseInt(edc_sem.getText());
-      if (Edc_sem > 80)
+      if (Edc_sem > 80 || Edc_sem < 0)
       {
         sErr = sErr + " " + "semester";
         flag4 = 1;
@@ -958,7 +958,7 @@ public class cgpi extends javax.swing.JFrame
     try
     {
       int Eim_int = eim_int.getText().length() == 0 ? 0 : Integer.parseInt(eim_int.getText());
-      if (Eim_int > 20)
+      if (Eim_int > 20 || Eim_int < 0)
       {
         sErr = sErr + " " + "internals";
         flag1 = 1;
@@ -968,7 +968,7 @@ public class cgpi extends javax.swing.JFrame
         flag1 = 0;
       }
       int Eim_sem = eim_sem.getText().length() == 0 ? 0 : Integer.parseInt(eim_sem.getText());
-      if (Eim_sem > 80)
+      if (Eim_sem > 80 || Eim_sem < 0)
       {
         sErr = sErr + " " + "semester";
         flag2 = 1;
@@ -1019,7 +1019,7 @@ public class cgpi extends javax.swing.JFrame
     try
     {
       int Oopm_term = oopm_term.getText().length() == 0 ? 0 : Integer.parseInt(oopm_term.getText());
-      if (Oopm_term > 25)
+      if (Oopm_term > 25 || Oopm_term < 0)
       {
         sErr = sErr + " " + "termwork";
         flag1 = 1;
@@ -1029,7 +1029,7 @@ public class cgpi extends javax.swing.JFrame
         flag1 = 0;
       }
       int Oopm_pracs = oopm_pracs.getText().length() == 0 ? 0 : Integer.parseInt(oopm_pracs.getText());
-      if (Oopm_pracs > 25)
+      if (Oopm_pracs > 25 || Oopm_pracs < 0)
       {
         sErr = sErr + " " + "practicals";
         flag2 = 1;
@@ -1081,7 +1081,7 @@ public class cgpi extends javax.swing.JFrame
     {
       int Am_int = am_int.getText().length() == 0 ? 0 : Integer.parseInt(am_int.getText());
       //jLabel45.setText(Integer.toString(Enas_int));
-      if (Am_int > 20)
+      if (Am_int > 20 || Am_int < 0)
       {
         sErr = sErr + " " + "internals";
         flag1 = 1;
@@ -1091,7 +1091,7 @@ public class cgpi extends javax.swing.JFrame
         flag1 = 0;
       }
       int Am_term = am_term.getText().length() == 0 ? 0 : Integer.parseInt(am_term.getText());
-      if (Am_term > 25)
+      if (Am_term > 25 || Am_term < 0)
       {
         sErr = sErr + " " + "termwork";
         flag2 = 1;
@@ -1101,7 +1101,7 @@ public class cgpi extends javax.swing.JFrame
         flag2 = 0;
       }
       int Am_sem = am_sem.getText().length() == 0 ? 0 : Integer.parseInt(am_sem.getText());
-      if (Am_sem > 80)
+      if (Am_sem > 80 || Am_sem < 0)
       {
         sErr = sErr + " " + "semester";
         flag3 = 1;
@@ -1160,7 +1160,7 @@ public class cgpi extends javax.swing.JFrame
     {
       int Dcd_int = dcd_int.getText().length() == 0 ? 0 : Integer.parseInt(dcd_int.getText());
       //jLabel45.setText(Integer.toString(Enas_int));
-      if (Dcd_int > 20)
+      if (Dcd_int > 20 || Dcd_int < 0)
       {
         sErr = sErr + " " + "internals";
         flag1 = 1;
@@ -1170,7 +1170,7 @@ public class cgpi extends javax.swing.JFrame
         flag1 = 0;
       }
       int Dcd_term = dcd_term.getText().length() == 0 ? 0 : Integer.parseInt(dcd_term.getText());
-      if (Dcd_term > 25)
+      if (Dcd_term > 25 || Dcd_term < 0)
       {
         sErr = sErr + " " + "termwork";
         flag2 = 1;
@@ -1180,7 +1180,7 @@ public class cgpi extends javax.swing.JFrame
         flag2 = 0;
       }
       int Dcd_pracs = dcd_pracs.getText().length() == 0 ? 0 : Integer.parseInt(dcd_pracs.getText());
-      if (Dcd_pracs > 25)
+      if (Dcd_pracs > 25 || Dcd_pracs < 0)
       {
         sErr = sErr + " " + "termwork";
         flag3 = 1;
@@ -1190,7 +1190,7 @@ public class cgpi extends javax.swing.JFrame
         flag3 = 0;
       }
       int Dcd_sem = dcd_sem.getText().length() == 0 ? 0 : Integer.parseInt(dcd_sem.getText());
-      if (Dcd_sem > 80)
+      if (Dcd_sem > 80 || Dcd_sem < 0)
       {
         sErr = sErr + " " + "semester";
         flag4 = 1;
