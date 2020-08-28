@@ -76,7 +76,7 @@ void display()
         double d=obj.calculate()[0];
         if(d==0.0)
         {
-                jLabel2.setText("unsuccessfulAS");
+                jLabel2.setText("unsuccessful");
         }
 
         //  double d=obj.calculate()[0];
