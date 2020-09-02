@@ -1076,6 +1076,7 @@ public class cgpi extends javax.swing.JFrame
     int flag1 = 0;
     int flag2 = 0;
     int flag3 = 0;
+    
     String sErr = "Invalid Entries in ";
     try
     {
