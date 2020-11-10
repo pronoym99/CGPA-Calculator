@@ -30,8 +30,8 @@ public class cgpi extends javax.swing.JFrame
   private void initComponents()
   {
 
-    javax.swing.JPopupMenu jPopupMenu1 = new javax.swing.JPopupMenu();
-    javax.swing.JPopupMenu jPopupMenu2 = new javax.swing.JPopupMenu();
+    new JPopupMenu();
+    new JPopupMenu();
     javax.swing.JDialog jDialog1 = new javax.swing.JDialog();
     eimpane = new javax.swing.JTabbedPane();
     javax.swing.JPanel jPanel4 = new javax.swing.JPanel();
@@ -96,7 +96,6 @@ public class cgpi extends javax.swing.JFrame
     javax.swing.JLabel jLabel20 = new javax.swing.JLabel();
     eim_int = new javax.swing.JTextField();
     eim_sem = new javax.swing.JTextField();
-    error_eim = new javax.swing.JLabel();
     javax.swing.JLabel jLabel24 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel38 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel39 = new javax.swing.JLabel();
@@ -1487,7 +1486,7 @@ public class cgpi extends javax.swing.JFrame
   private javax.swing.JLabel error_am;
   private javax.swing.JLabel error_dcd;
   private javax.swing.JLabel error_edc;
-  private javax.swing.JLabel error_eim;
+  private javax.swing.JLabel error_eim = new JLabel();
   private javax.swing.JLabel error_enas;
   private javax.swing.JLabel error_oopm;
   private javax.swing.JLabel jLabel44;
